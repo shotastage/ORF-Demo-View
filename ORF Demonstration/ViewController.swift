@@ -10,11 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var input: CustomTextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    
+    @IBAction func pushNext(_ sender: Any) {
+        
+        let store = Store.shared
+        
+        store.url = input.text!
+        
+        performSegue(withIdentifier: "push_next",sender: nil)
+    }
 }
-
