@@ -86,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2588608D21B589E800415433 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25AE3DA921A5C27E00EC8766 /* Button.swift */,
+				25AE3DA721A5C16C00EC8766 /* TextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		25AE3DAB21A5C2D400EC8766 /* Infra */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +134,7 @@
 		25F5ABE321A5BF6F00421A0D /* ORF Demonstration */ = {
 			isa = PBXGroup;
 			children = (
+				2588608D21B589E800415433 /* Views */,
 				25AE3DAE21A5C32B00EC8766 /* Extensions */,
 				25AE3DAB21A5C2D400EC8766 /* Infra */,
 				25F5ABE421A5BF6F00421A0D /* AppDelegate.swift */,
@@ -133,8 +143,6 @@
 				25F5ABEB21A5BF7000421A0D /* Assets.xcassets */,
 				25F5ABED21A5BF7000421A0D /* LaunchScreen.storyboard */,
 				25F5ABF021A5BF7000421A0D /* Info.plist */,
-				25AE3DA721A5C16C00EC8766 /* TextField.swift */,
-				25AE3DA921A5C27E00EC8766 /* Button.swift */,
 				25AE3DB121A5C43200EC8766 /* DispViewController.swift */,
 				253E7F6B21A5C62B000647A6 /* Store.swift */,
 			);

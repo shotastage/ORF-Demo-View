@@ -17,4 +17,6 @@ class Store {
     private init() { }
     
     var url: String = ""
+    
+    var password: String = ""
 }
