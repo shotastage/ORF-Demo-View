@@ -25,6 +25,11 @@ class ViewController: UIViewController {
         
         store.url = input.text!
         
+        if store.url == "" {
+            store.url = "https://2oo.pw/go7jj"
+        }
+    
+        
         performSegue(withIdentifier: "push_next",sender: nil)
     }
 }
